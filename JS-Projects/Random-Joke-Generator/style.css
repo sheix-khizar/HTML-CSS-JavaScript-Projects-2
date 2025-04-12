@@ -1,0 +1,44 @@
+/* style.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe0b2; /* Light Orange */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    background: #ffffff; /* White */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    width: 320px;
+}
+
+h2 {
+    color: #e65100; /* Dark Orange */
+}
+
+#joke {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #d84315; /* Deep Orange */
+}
+
+button {
+    background-color: #ff9800; /* Orange */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #e65100; /* Darker Orange */
+}
