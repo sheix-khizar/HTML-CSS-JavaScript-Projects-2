@@ -1,0 +1,150 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #5f2c82, #49a09d);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.password-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.password-display {
+    background-color: #f8f9fa;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 22px;
+    font-family: 'Courier New', monospace;
+    margin-bottom: 25px;
+    word-break: break-all;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 0 5px 15px;
+}
+
+#generate-btn {
+    background-color: #5f2c82;
+    color: white;
+}
+
+#generate-btn:hover {
+    background-color: #4a2266;
+}
+
+#copy-btn {
+    background-color: #49a09d;
+    color: white;
+}
+
+#copy-btn:hover {
+    background-color: #3a807d;
+}
+
+.settings {
+    margin: 25px 0;
+    text-align: left;
+}
+
+.setting {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.setting label {
+    margin-left: 10px;
+    color: #555;
+    cursor: pointer;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#length-value {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.strength-meter {
+    margin-top: 25px;
+}
+
+.strength-bar {
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.strength-bar::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 0%;
+    background-color: red;
+    transition: all 0.3s;
+}
+
+.strength-text {
+    font-weight: bold;
+    color: #555;
+}
+
+.weak .strength-bar::after {
+    width: 25%;
+    background-color: #ff4757;
+}
+
+.medium .strength-bar::after {
+    width: 50%;
+    background-color: #ffa502;
+}
+
+.strong .strength-bar::after {
+    width: 75%;
+    background-color: #2ed573;
+}
+
+.very-strong .strength-bar::after {
+    width: 100%;
+    background-color: #1dd1a1;
+}
