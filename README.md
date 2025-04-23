@@ -25,9 +25,6 @@ Welcome to my collection of **mini JavaScript projects** built with **HTML, CSS,
 - **Vanilla JavaScript (ES6+)**
 - **Fetch API** (for joke/quote apps)
 
-## 📁 Folder Structure
-
-
 
 ## 💡 How to Run Locally
 
