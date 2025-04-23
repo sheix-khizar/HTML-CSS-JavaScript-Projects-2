@@ -1,6 +1,6 @@
-# 🛠️ 10 Simple HTML, CSS & JavaScript Projects
+# 🛠️ Simple HTML, CSS & JavaScript Projects
 
-Welcome to my collection of **10 mini JavaScript projects** built with **HTML, CSS, and Vanilla JS**. These beginner-friendly apps are great for learning core concepts through fun and useful mini-tools. 🎯
+Welcome to my collection of **mini JavaScript projects** built with **HTML, CSS, and Vanilla JS**. These beginner-friendly apps are great for learning core concepts through fun and useful mini-tools. 🎯
 
 ## 🔗 Live Demos
 
@@ -15,7 +15,6 @@ Welcome to my collection of **10 mini JavaScript projects** built with **HTML, C
 | 💬 Random Quote Generator | Displays inspirational quotes | [Live Demo](https://quote-generator-tawny-psi.vercel.app/) |
 | 😂 Random Joke Generator | Fetches jokes using a public API | [Live Demo](https://joke-generator-plum.vercel.app/) |
 | 🙈 Text Hider | Toggle visibility of a block of text | [Live Demo](https://text-hider.vercel.app/) |
-| ⏱️ Stopwatch | Start, pause, and reset a timer | **[Coming Soon!]** |
 
 ---
 
