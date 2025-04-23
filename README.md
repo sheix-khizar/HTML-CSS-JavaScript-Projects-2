@@ -43,7 +43,8 @@ Open index.html in your browser to run it locally.
 Got ideas or improvements?
 Fork this repo and send a pull request — all contributions are welcome!
 
-📫 Contact
+📫 Contact <br>
 Feel free to connect or leave feedback:
+<br>
 📬 GitHub Profile: https://github.com/sheix-khizar
 
